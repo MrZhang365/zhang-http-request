@@ -1,0 +1,21 @@
+{
+  "name": "zhang-http-request",
+  "version": "1.0.0",
+  "description": "适用于前端的HTTP请求库，基于XHR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrZhang365/zhang-http-request.git"
+  },
+  "keywords": [
+    "http",
+    "front-end",
+    "xhr",
+    "zhr"
+  ],
+  "author": "MrZhang365",
+  "license": "MIT"
+}
