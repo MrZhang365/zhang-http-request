@@ -1,6 +1,6 @@
 {
   "name": "zhang-http-request",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "适用于前端的HTTP请求库，基于XHR",
   "main": "index.js",
   "scripts": {

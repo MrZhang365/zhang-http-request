@@ -18,6 +18,27 @@ zhr('https://your.site.url','post','your data').then((result) => {
 .catch((err) => {
     console.error(err)
 })
+
+// 还可以POST一个JSON数据
+zhr.json('https://never.gonna.give.you.up', { user: 'Rick Astley' }).then((result) => {
+    console.log(result)
+})
+.catch((err) => {
+    console.error(err)
+})
+```
+# 更多方法
+```js
+// 自定义请求头
+zhr('https://never.gonna.give.you.up', 'get', undefined, {
+    'X-Forwarded-For': '127.0.0.1',    // 自定义一个请求头
+})
+// 第三个参数如果是undefined，zhr会忽略他
+
+// 这也适用于json方法
+zhr.json('https://never.gonna.give.you.up', { user: 'Rick Astley' }, {
+    'X-Forwarded-For': '127.0.0.1',    // 自定义一个请求头
+})
 ```
 
 # 许可证  
